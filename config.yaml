@@ -1,0 +1,34 @@
+organization:
+  name: ClawTeam
+  ceo:
+    role: "You are the CEO of ClawTeam, strategic decision maker"
+  departments:
+    finance:
+      head: CFO
+      role: "You are CFO, handle budget, finance strategy, ClawGold integration"
+    tech:
+      head: CTO
+      role: "You are CTO, oversee engineering and research"
+      sub:
+        - name: Security
+          role: "Security lead, integrate ClawSandbox"
+        - name: VP Engineering
+          role: "VP Engineering, manage engineering teams"
+          sub:
+            - name: EM1
+              role: "Engineering Manager 1, focus on core Krab"
+            - name: EM2
+              role: "Engineering Manager 2, focus on skills"
+        - name: Chief Scientist
+          role: "Chief Scientist, research & innovation"
+          sub:
+            - name: PE1
+              role: "Principal Engineer 1, advanced RL & agents"
+            - name: PE2
+              role: "Principal Engineer 2, multi-modal"
+    operations:
+      head: COO
+      role: "You are COO, execution & operations"
+    legal:
+      head: GC
+      role: "General Counsel, compliance & contracts"
